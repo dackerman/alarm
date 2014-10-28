@@ -6,18 +6,18 @@ module.exports = function(grunt){
         //configuration for Alarm the Ghost theme
         alarm: {
           //make sure i18n/your_locale.json exists
-          locale: 'zh_CN',
+          locale: 'en_US',
 
           //set the nav menu as desired
           nav: [{
             url: '/',
             title: 'Home'
           },{
-            url: '/works/',
-            title: 'Works'
-          },{
             url: '/about/',
-            title: 'About Me'
+            title: 'What We Offer'
+          },{
+            url: '/buy/',
+            title: 'Buy The Course Now'
           }],
 
           //there is a automatically generated nav item when user viewing
@@ -30,8 +30,8 @@ module.exports = function(grunt){
           },
 
           googleAnalytics: {
-            enable: false,
-            id: 'your_GA_id_here'
+            enable: true,
+            id: 'UA-55839568-1'
           },
 
           syntaxHighlight: {
